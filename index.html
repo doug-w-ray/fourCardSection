@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Four card feature section</title>
 
@@ -15,26 +17,39 @@
   </style>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+  <header>
+    <section class="hero">
+        <h1>Reliable, efficient delivery</h1>
+        <h2>Powered by Technology</h2>
+        <p>Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful</p>
+      </div>
+    </section>
+  </header>
+    <div class="container">
+      <div class="card card-super">
+        <div class="title">Supervisor</div>
+        Monitors activity to identify project roadblocks
+        <img src="images/icon-supervisor.svg">
+      </div>
+        <div class="card card-builder">
+          <div class="title">Team Builder</div>
+          Scans our talent network to create the optimal team for your project
+          <img src="images/icon-team-builder.svg">
+          </div>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+        <div class="card card-karma">
+          <div class="title">Karma</div>
+          Regularly evaluates our talent to ensure quality
+          <img src="images/icon-karma.svg">
+        </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
+        <div class="card card-calc">
+          <div class="title">Calculator</div>
+          Uses data from past projects to provide better delivery estimates
+          <img src="images/icon-calculator.svg">
+        </div>
+      </div>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
